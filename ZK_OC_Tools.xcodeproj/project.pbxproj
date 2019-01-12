@@ -15,6 +15,7 @@
 		55CDD7CB1EA5CA6700AABA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CDD7C91EA5CA6700AABA86 /* LaunchScreen.storyboard */; };
 		55CDD7D61EA5CA6800AABA86 /* ZK_OC_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7D51EA5CA6800AABA86 /* ZK_OC_ToolsTests.m */; };
 		55CDD7E11EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7E01EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m */; };
+		7D130E0FA9EDF590D50ABD06 /* libPods-ZK_OC_Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DEF3082EC44586ED7A786A /* libPods-ZK_OC_Tools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE134E27F3273A11B9FA516 /* Pods-ZK_OC_Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZK_OC_Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCBAC6DF713D16604905E3F /* Pods-ZK_OC_Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZK_OC_Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools.release.xcconfig"; sourceTree = "<group>"; };
 		55CDD7B81EA5CA6700AABA86 /* ZK_OC_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZK_OC_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CDD7BC1EA5CA6700AABA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55CDD7BE1EA5CA6700AABA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		55CDD7DC1EA5CA6800AABA86 /* ZK_OC_ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK_OC_ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CDD7E01EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK_OC_ToolsUITests.m; sourceTree = "<group>"; };
 		55CDD7E21EA5CA6800AABA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DEF3082EC44586ED7A786A /* libPods-ZK_OC_Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZK_OC_Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D130E0FA9EDF590D50ABD06 /* libPods-ZK_OC_Tools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420BF2C608B7CC44160D6D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DEF3082EC44586ED7A786A /* libPods-ZK_OC_Tools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5579219621E8D16000952A8E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		5579219721E8D16900952A8E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		5579219821E8D17B00952A8E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		55CDD7AF1EA5CA6700AABA86 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				55CDD7D41EA5CA6800AABA86 /* ZK_OC_ToolsTests */,
 				55CDD7DF1EA5CA6800AABA86 /* ZK_OC_ToolsUITests */,
 				55CDD7B91EA5CA6700AABA86 /* Products */,
+				9F50E13C0C69431F4248D0CC /* Pods */,
+				420BF2C608B7CC44160D6D2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +137,9 @@
 		55CDD7BA1EA5CA6700AABA86 /* ZK_OC_Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5579219821E8D17B00952A8E /* Base */,
+				5579219721E8D16900952A8E /* Category */,
+				5579219621E8D16000952A8E /* Tools */,
 				55CDD7BE1EA5CA6700AABA86 /* AppDelegate.h */,
 				55CDD7BF1EA5CA6700AABA86 /* AppDelegate.m */,
 				55CDD7C11EA5CA6700AABA86 /* ViewController.h */,
@@ -140,6 +179,15 @@
 			path = ZK_OC_ToolsUITests;
 			sourceTree = "<group>";
 		};
+		9F50E13C0C69431F4248D0CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BE134E27F3273A11B9FA516 /* Pods-ZK_OC_Tools.debug.xcconfig */,
+				3CCBAC6DF713D16604905E3F /* Pods-ZK_OC_Tools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55CDD7E51EA5CA6800AABA86 /* Build configuration list for PBXNativeTarget "ZK_OC_Tools" */;
 			buildPhases = (
+				5212E9BDD12ACBA48B30A533 /* [CP] Check Pods Manifest.lock */,
 				55CDD7B41EA5CA6700AABA86 /* Sources */,
 				55CDD7B51EA5CA6700AABA86 /* Frameworks */,
 				55CDD7B61EA5CA6700AABA86 /* Resources */,
+				4CDAAA39181E4C268631A634 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +257,7 @@
 				TargetAttributes = {
 					55CDD7B71EA5CA6700AABA86 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A64T8MWKMY;
 						ProvisioningStyle = Automatic;
 					};
 					55CDD7D01EA5CA6800AABA86 = {
@@ -267,6 +318,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CDAAA39181E4C268631A634 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5212E9BDD12ACBA48B30A533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZK_OC_Tools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55CDD7B41EA5CA6700AABA86 /* Sources */ = {
@@ -424,9 +524,12 @@
 		};
 		55CDD7E61EA5CA6800AABA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE134E27F3273A11B9FA516 /* Pods-ZK_OC_Tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A64T8MWKMY;
 				INFOPLIST_FILE = ZK_OC_Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.ZK-OC-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +538,12 @@
 		};
 		55CDD7E71EA5CA6800AABA86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCBAC6DF713D16604905E3F /* Pods-ZK_OC_Tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A64T8MWKMY;
 				INFOPLIST_FILE = ZK_OC_Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.ZK-OC-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +615,7 @@
 				55CDD7E71EA5CA6800AABA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CDD7E81EA5CA6800AABA86 /* Build configuration list for PBXNativeTarget "ZK_OC_ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +624,7 @@
 				55CDD7EA1EA5CA6800AABA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CDD7EB1EA5CA6800AABA86 /* Build configuration list for PBXNativeTarget "ZK_OC_ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +633,7 @@
 				55CDD7ED1EA5CA6800AABA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
