@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55239E5A21F9A0420022011B /* BaseTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E5921F9A0420022011B /* BaseTabBarVC.m */; };
+		55239E6421F9A0E00022011B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E6321F9A0E00022011B /* BaseViewController.m */; };
+		55239E6721F9A3020022011B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E6621F9A3020022011B /* MineViewController.m */; };
+		55239E7021F9A3290022011B /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E6F21F9A3290022011B /* MarketViewController.m */; };
+		55239E7321F9A3390022011B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E7221F9A3390022011B /* HomeViewController.m */; };
+		55239E7F21F9A6780022011B /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E7E21F9A6780022011B /* BaseNavigationVC.m */; };
+		55239E8221F9A9D80022011B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E8021F9A9D50022011B /* UIColor+Hex.m */; };
+		55239E8521F9AA3D0022011B /* BaseCustomeNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E8421F9AA3D0022011B /* BaseCustomeNavBar.m */; };
+		55239E8821F9BFDE0022011B /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 55239E8621F9BFDB0022011B /* UIView+Common.m */; };
 		55CDD7BD1EA5CA6700AABA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7BC1EA5CA6700AABA86 /* main.m */; };
 		55CDD7C01EA5CA6700AABA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7BF1EA5CA6700AABA86 /* AppDelegate.m */; };
 		55CDD7C31EA5CA6700AABA86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7C21EA5CA6700AABA86 /* ViewController.m */; };
 		55CDD7C61EA5CA6700AABA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CDD7C41EA5CA6700AABA86 /* Main.storyboard */; };
 		55CDD7C81EA5CA6700AABA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CDD7C71EA5CA6700AABA86 /* Assets.xcassets */; };
 		55CDD7CB1EA5CA6700AABA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CDD7C91EA5CA6700AABA86 /* LaunchScreen.storyboard */; };
-		55CDD7D61EA5CA6800AABA86 /* ZK_OC_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7D51EA5CA6800AABA86 /* ZK_OC_ToolsTests.m */; };
-		55CDD7E11EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDD7E01EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m */; };
 		7D130E0FA9EDF590D50ABD06 /* libPods-ZK_OC_Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DEF3082EC44586ED7A786A /* libPods-ZK_OC_Tools.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +45,29 @@
 /* Begin PBXFileReference section */
 		1BE134E27F3273A11B9FA516 /* Pods-ZK_OC_Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZK_OC_Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		3CCBAC6DF713D16604905E3F /* Pods-ZK_OC_Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZK_OC_Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZK_OC_Tools/Pods-ZK_OC_Tools.release.xcconfig"; sourceTree = "<group>"; };
+		55239E5821F9A0420022011B /* BaseTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarVC.h; sourceTree = "<group>"; };
+		55239E5921F9A0420022011B /* BaseTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarVC.m; sourceTree = "<group>"; };
+		55239E6221F9A0E00022011B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		55239E6321F9A0E00022011B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		55239E6521F9A3020022011B /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		55239E6621F9A3020022011B /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		55239E6E21F9A3290022011B /* MarketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		55239E6F21F9A3290022011B /* MarketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		55239E7121F9A3390022011B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		55239E7221F9A3390022011B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		55239E7521F9A44E0022011B /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		55239E7621F9A4520022011B /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		55239E7721F9A4550022011B /* FontMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontMacro.h; sourceTree = "<group>"; };
+		55239E7821F9A4570022011B /* APIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIMacro.h; sourceTree = "<group>"; };
+		55239E7921F9A5080022011B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		55239E7D21F9A6750022011B /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
+		55239E7E21F9A6780022011B /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
+		55239E8021F9A9D50022011B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		55239E8121F9A9D80022011B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		55239E8321F9AA3D0022011B /* BaseCustomeNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCustomeNavBar.h; sourceTree = "<group>"; };
+		55239E8421F9AA3D0022011B /* BaseCustomeNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCustomeNavBar.m; sourceTree = "<group>"; };
+		55239E8621F9BFDB0022011B /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		55239E8721F9BFDE0022011B /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		55CDD7B81EA5CA6700AABA86 /* ZK_OC_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZK_OC_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CDD7BC1EA5CA6700AABA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55CDD7BE1EA5CA6700AABA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,11 +79,7 @@
 		55CDD7CA1EA5CA6700AABA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CDD7CC1EA5CA6700AABA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CDD7D11EA5CA6800AABA86 /* ZK_OC_ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK_OC_ToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CDD7D51EA5CA6800AABA86 /* ZK_OC_ToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK_OC_ToolsTests.m; sourceTree = "<group>"; };
-		55CDD7D71EA5CA6800AABA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CDD7DC1EA5CA6800AABA86 /* ZK_OC_ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK_OC_ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CDD7E01EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK_OC_ToolsUITests.m; sourceTree = "<group>"; };
-		55CDD7E21EA5CA6800AABA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DEF3082EC44586ED7A786A /* libPods-ZK_OC_Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZK_OC_Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +117,126 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55239E5B21F9A06D0022011B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				55239E5E21F9A0900022011B /* Mine */,
+				55239E5D21F9A0890022011B /* Market */,
+				55239E5C21F9A0820022011B /* Home */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		55239E5C21F9A0820022011B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55239E6D21F9A31A0022011B /* C */,
+				55239E6C21F9A3170022011B /* V */,
+				55239E6B21F9A3170022011B /* M */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		55239E5D21F9A0890022011B /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				55239E6A21F9A3120022011B /* C */,
+				55239E6921F9A30E0022011B /* V */,
+				55239E6821F9A3080022011B /* M */,
+			);
+			name = Market;
+			sourceTree = "<group>";
+		};
+		55239E5E21F9A0900022011B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				55239E6121F9A0C30022011B /* C */,
+				55239E6021F9A0BE0022011B /* V */,
+				55239E5F21F9A0B70022011B /* M */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		55239E5F21F9A0B70022011B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		55239E6021F9A0BE0022011B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		55239E6121F9A0C30022011B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				55239E6521F9A3020022011B /* MineViewController.h */,
+				55239E6621F9A3020022011B /* MineViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		55239E6821F9A3080022011B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		55239E6921F9A30E0022011B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		55239E6A21F9A3120022011B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				55239E6E21F9A3290022011B /* MarketViewController.h */,
+				55239E6F21F9A3290022011B /* MarketViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		55239E6B21F9A3170022011B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		55239E6C21F9A3170022011B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		55239E6D21F9A31A0022011B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				55239E7121F9A3390022011B /* HomeViewController.h */,
+				55239E7221F9A3390022011B /* HomeViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		55239E7421F9A43A0022011B /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				55239E7821F9A4570022011B /* APIMacro.h */,
+				55239E7621F9A4520022011B /* ColorMacro.h */,
+				55239E7521F9A44E0022011B /* CommonMacro.h */,
+				55239E7721F9A4550022011B /* FontMacro.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
 		5579219621E8D16000952A8E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +247,10 @@
 		5579219721E8D16900952A8E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				55239E8721F9BFDE0022011B /* UIView+Common.h */,
+				55239E8621F9BFDB0022011B /* UIView+Common.m */,
+				55239E8121F9A9D80022011B /* UIColor+Hex.h */,
+				55239E8021F9A9D50022011B /* UIColor+Hex.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -108,6 +258,14 @@
 		5579219821E8D17B00952A8E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				55239E5821F9A0420022011B /* BaseTabBarVC.h */,
+				55239E5921F9A0420022011B /* BaseTabBarVC.m */,
+				55239E6221F9A0E00022011B /* BaseViewController.h */,
+				55239E6321F9A0E00022011B /* BaseViewController.m */,
+				55239E7D21F9A6750022011B /* BaseNavigationVC.h */,
+				55239E7E21F9A6780022011B /* BaseNavigationVC.m */,
+				55239E8321F9AA3D0022011B /* BaseCustomeNavBar.h */,
+				55239E8421F9AA3D0022011B /* BaseCustomeNavBar.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -116,8 +274,6 @@
 			isa = PBXGroup;
 			children = (
 				55CDD7BA1EA5CA6700AABA86 /* ZK_OC_Tools */,
-				55CDD7D41EA5CA6800AABA86 /* ZK_OC_ToolsTests */,
-				55CDD7DF1EA5CA6800AABA86 /* ZK_OC_ToolsUITests */,
 				55CDD7B91EA5CA6700AABA86 /* Products */,
 				9F50E13C0C69431F4248D0CC /* Pods */,
 				420BF2C608B7CC44160D6D2A /* Frameworks */,
@@ -137,6 +293,8 @@
 		55CDD7BA1EA5CA6700AABA86 /* ZK_OC_Tools */ = {
 			isa = PBXGroup;
 			children = (
+				55239E7421F9A43A0022011B /* Macros */,
+				55239E5B21F9A06D0022011B /* Modules */,
 				5579219821E8D17B00952A8E /* Base */,
 				5579219721E8D16900952A8E /* Category */,
 				5579219621E8D16000952A8E /* Tools */,
@@ -144,6 +302,7 @@
 				55CDD7BF1EA5CA6700AABA86 /* AppDelegate.m */,
 				55CDD7C11EA5CA6700AABA86 /* ViewController.h */,
 				55CDD7C21EA5CA6700AABA86 /* ViewController.m */,
+				55239E7921F9A5080022011B /* PrefixHeader.pch */,
 				55CDD7C41EA5CA6700AABA86 /* Main.storyboard */,
 				55CDD7C71EA5CA6700AABA86 /* Assets.xcassets */,
 				55CDD7C91EA5CA6700AABA86 /* LaunchScreen.storyboard */,
@@ -159,24 +318,6 @@
 				55CDD7BC1EA5CA6700AABA86 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		55CDD7D41EA5CA6800AABA86 /* ZK_OC_ToolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				55CDD7D51EA5CA6800AABA86 /* ZK_OC_ToolsTests.m */,
-				55CDD7D71EA5CA6800AABA86 /* Info.plist */,
-			);
-			path = ZK_OC_ToolsTests;
-			sourceTree = "<group>";
-		};
-		55CDD7DF1EA5CA6800AABA86 /* ZK_OC_ToolsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				55CDD7E01EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m */,
-				55CDD7E21EA5CA6800AABA86 /* Info.plist */,
-			);
-			path = ZK_OC_ToolsUITests;
 			sourceTree = "<group>";
 		};
 		9F50E13C0C69431F4248D0CC /* Pods */ = {
@@ -373,9 +514,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55239E8521F9AA3D0022011B /* BaseCustomeNavBar.m in Sources */,
+				55239E7F21F9A6780022011B /* BaseNavigationVC.m in Sources */,
+				55239E8221F9A9D80022011B /* UIColor+Hex.m in Sources */,
 				55CDD7C31EA5CA6700AABA86 /* ViewController.m in Sources */,
+				55239E6421F9A0E00022011B /* BaseViewController.m in Sources */,
+				55239E5A21F9A0420022011B /* BaseTabBarVC.m in Sources */,
+				55239E7021F9A3290022011B /* MarketViewController.m in Sources */,
+				55239E8821F9BFDE0022011B /* UIView+Common.m in Sources */,
+				55239E6721F9A3020022011B /* MineViewController.m in Sources */,
 				55CDD7C01EA5CA6700AABA86 /* AppDelegate.m in Sources */,
 				55CDD7BD1EA5CA6700AABA86 /* main.m in Sources */,
+				55239E7321F9A3390022011B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +533,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CDD7D61EA5CA6800AABA86 /* ZK_OC_ToolsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +540,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CDD7E11EA5CA6800AABA86 /* ZK_OC_ToolsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +676,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A64T8MWKMY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZK_OC_Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = ZK_OC_Tools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +692,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A64T8MWKMY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZK_OC_Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = ZK_OC_Tools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
